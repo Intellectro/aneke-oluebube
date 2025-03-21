@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-main: #0f172a;
+  --color-primary-basic: #0f172a50;
+}
+
+* {
+  @apply box-border;
+  font-family: "Nunito", "Montserrat";
+}
+
+html {
+  @apply scroll-smooth;
+}
