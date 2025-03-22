@@ -27,7 +27,7 @@
         <div class="h-full flex flex-col gap-y-2 md:gap-y-10 px-10">
             <div class="flex flex-col gap-y-5">
                 <div class="flex flex-col leading-tight gap-y-[13px] text-slate-200">
-                    <div class="text-[25px] md:text-[45px] font-bold tracking-tighter lg:leading-11" style="font-family: 'Poppins', sans-serif;">{{utils.devName}}</div>
+                    <div class="text-[40px] uppercase md:text-[45px] font-bold tracking-tighter lg:leading-11" style="font-family: 'Poppins', sans-serif;">{{utils.devName}}</div>
                     <div class="text-[14.5px] md:text-[16.5px] uppercase font-semibold">{{utils.devStack}}</div>
                 </div>
                 <div class="text-[15px] md:text-base font-medium text-slate-400 text-pretty" v-html="utils.devShortNote" />
