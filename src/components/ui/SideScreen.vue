@@ -17,11 +17,15 @@
 
     const handlePageScroll = (e) => {
         const _topvalue = e.currentTarget.scrollTop;
-        if (_topvalue >= 0 && _topvalue < 401) {
+        if (_topvalue >= 0 && _topvalue < 617) {
             store.dispatch("handleCurrentTag", "about");
         }
-        if (_topvalue >= 311) {
+        if (_topvalue >= 617 && _topvalue < 1900) {
             store.dispatch("handleCurrentTag", "experience");
+        }
+
+        if (_topvalue >= 1900) {
+            store.dispatch("handleCurrentTag", "projects");
         }
     }
 

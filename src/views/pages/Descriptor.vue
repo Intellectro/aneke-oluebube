@@ -1,6 +1,6 @@
 <script setup>
     import { ref } from "vue";
-    import {SideScreen, PageScroller, Bio, Experience} from "../../components";
+    import {SideScreen, PageScroller, Bio, Experience, Project} from "../../components";
 
 </script>
 
@@ -9,6 +9,7 @@
         <PageScroller>
             <Bio />
             <Experience />
+            <Project />
         </PageScroller>
     </SideScreen>
 </template>
