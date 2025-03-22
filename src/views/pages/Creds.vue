@@ -24,7 +24,7 @@
 
 <template>
     <SideScreen class="flex-1 md:flex-[0.5] py-10 md:pt-20 md:pb-8">
-        <div class="h-full flex flex-col justify-between px-10">
+        <div class="h-full flex flex-col gap-y-10 px-10">
             <div class="flex flex-col gap-y-5">
                 <div class="flex flex-col leading-tight gap-y-[13px] text-slate-200">
                     <div class="text-[25px] md:text-[45px] font-bold tracking-tighter lg:leading-11" style="font-family: 'Poppins', sans-serif;">{{utils.devName}}</div>

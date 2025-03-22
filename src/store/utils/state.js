@@ -63,7 +63,7 @@ export default {
             id: 1,
             _title: "Building a VTU app",
             _content: "SUBZPAY is a VTU app that allows users to buy and sell DATA and AIRTIME, convert AIRTIME into REAL MONEY, purchase GIFT CARD, GAME CPs, E-TOKEN, and much more. I'm still actively working on it and expect to complete it soon.",
-            _image: "/src/assets/images/subzpay.png",
+            _image: "../../assets/images/subzpay.png",
             _link: "https://github.com/Intellectro/subzpay_landpage",
             _langs: ["Vue", "Vuex", "Tailwindcss", "Expressjs", "MongoDB", "Ionic", "Vue-router", "Zod", "UUID"]
         },
@@ -71,7 +71,7 @@ export default {
             id: 2,
             _title: "Tech Connect HUB",
             _content: "Tech Connect is the ultimate hub for developers, engineers, and tech enthusiasts to collaborate, share knowledge, and grow their networks. Whether you're looking for job opportunities, mentorship, or a place to showcase your latest project, Tech Connect brings like-minded professionals together.",
-            _image: "/src/assets/images/techconnect.png",
+            _image: "../../assets/images/techconnect.png",
             _link: "https://tech-connect-hub.vercel.app",
             _langs: ["React", "Typescript", "Tailwindcss", "Express", "MongoDB", "Zod"]
         },
@@ -79,7 +79,7 @@ export default {
             id: 3,
             _title: "ErrorBreak AI Debugger Tool",
             _content: "ErrorBreak is the ultimate debugging platform for developers. Identify, analyze, and resolve code issues effortlessly with powerful tools designed to simplify troubleshooting and speed up development. Debug smarter, not harder!.",
-            _image: "/src/assets/images/errorbreak.png",
+            _image: "../../assets/images/errorbreak.png",
             _link: "https://errorbreak.vercel.app",
             _langs: ["Vue", "Express", "Vuex", "OpenAI-API", "CodeMirror", "Vue-Router"]
         },
@@ -87,7 +87,7 @@ export default {
             id: 4,
             _title: "KRACKCO AI Voice Assistant",
             _content: "Krackco is an advanced AI Voice Assistant designed to provide seamless voice interactions, smart automation, and real-time assistance. Whether it's answering queries, managing tasks, or controlling smart devices, Krackco delivers an intuitive and efficient user experience. Unfortunately the repo is on hidden, but will be active real soon",
-            _image: "/src/assets/images/aiassistant.png",
+            _image: "../../assets/images/aiassistant.png",
             _link: "#",
             _langs: ["Typescript", "React", "Tailwindcss", "Style-Component", "Zod", "React-Router", "Redux", "Redux-toolkit", "RASA", "OpenAI API"]
         },
@@ -95,7 +95,7 @@ export default {
             id: 5,
             _title: "ARTFIC NFT Holder",
             _content: "ARTFIC is an NFT project that delivers EXCLUSIVE, VERITABLE, and UNIQUE ASSETS on the blockchain. From digital art and collectibles to utility-driven tokens, we provide a SEAMLESS and SECURE experience for both creators and collectors.",
-            _image: "/src/assets/images/artfic.png",
+            _image: "../../assets/images/artfic.png",
             _link: "https://github.com/Intellectro/artfic-nft",
             _langs: ["Astro", "Tailwindcss", "ExpressJs", "MongoDB", "BcryptJS"]
         }
