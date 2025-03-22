@@ -1,16 +1,14 @@
 <script setup>
     import { ref } from "vue";
-    import {SideScreen, PageScroller, Bio} from "../../components";
+    import {SideScreen, PageScroller, Bio, Experience} from "../../components";
 
-    const utils = ref({
-        flexValue: 0.55,
-    });
 </script>
 
 <template>
-    <SideScreen :flexValue="utils.flexValue" class="py-10 md:py-20">
+    <SideScreen class="flex-1 md:flex-[0.65] py-10 md:py-20">
         <PageScroller>
             <Bio />
+            <Experience />
         </PageScroller>
     </SideScreen>
 </template>

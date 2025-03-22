@@ -5,6 +5,7 @@
         scrollbarWidth: "thin",
         scrollbarColor: "var(--color-primary-main) var(--color-primary-basic)"
     });
+
 </script>
 
 <template>

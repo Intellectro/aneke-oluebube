@@ -3,6 +3,8 @@
 @theme {
   --color-primary-main: #0f172a;
   --color-primary-basic: #0f172a50;
+  --color-chip-text: #5be3ce;
+  --color-chip-box: #112b3a;
 }
 
 * {

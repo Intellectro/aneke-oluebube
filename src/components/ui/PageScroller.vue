@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-fit px-10">
+    <div class="w-full h-fit">
         <slot />
     </div>
 </template>
