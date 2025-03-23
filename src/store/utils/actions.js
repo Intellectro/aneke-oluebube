@@ -10,4 +10,8 @@ const handleShowNav = ({commit}, val) => {
     return commit("showNavHandler", val);
 }
 
-export {handleCurrentTag, setPhoneView, handleShowNav};
+const handleSectionsOffset = ({commit}, val) => {
+    commit("sectionsOffsetHandler", val);
+}
+
+export {handleCurrentTag, setPhoneView, handleShowNav, handleSectionsOffset};

@@ -10,4 +10,8 @@ const showNavHandler = (state, val) => {
     return Object.assign(state, {showNav: val});
 }
 
-export {currentTagHandler, isPhoneViewHandler, showNavHandler};
+const sectionsOffsetHandler = (state, val) => {
+    return state.sectionsOffsets = [...val];
+}
+
+export {currentTagHandler, isPhoneViewHandler, showNavHandler, sectionsOffsetHandler};

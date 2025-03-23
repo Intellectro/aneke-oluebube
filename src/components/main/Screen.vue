@@ -1,5 +1,5 @@
 <script setup>
-    import {onBeforeMount, onMounted, reactive, ref, useTemplateRef} from "vue";
+    import {computed, onBeforeMount, onMounted, reactive, ref, useTemplateRef} from "vue";
     import { useStore } from "vuex";
 
     const customizeScrollbar = reactive({
@@ -9,6 +9,8 @@
 
     const viewStatus = ref(window.matchMedia("(max-width: 768px)"));
     const store = useStore();
+
+    const sectionsTopUpdater = computed(() => store.getters.sectionoffsets);
 
     const viewStatusHandler = () => {
         if (viewStatus.value.matches) {
@@ -23,18 +25,21 @@
     const handlePageScroll = (e) => {
         const _topvalue = e.currentTarget.scrollTop;
         store.dispatch("handleShowNav", false);
+        const _bioTopVal = sectionsTopUpdater.value[0]._currentTop;
+        const _expTopVal = sectionsTopUpdater.value[1]._currentTop;
+        const _proTopVal = sectionsTopUpdater.value[2]._currentTop;
 
-        if (_topvalue >= 445 && _topvalue < 1165) {
+        if (_topvalue >= _bioTopVal && _topvalue < _expTopVal) {
             store.dispatch("handleShowNav", true);
             store.dispatch("handleCurrentTag", "about");
         }
 
-        if (_topvalue >= 1289 && _topvalue < 3060) {
+        if (_topvalue >= _expTopVal && _topvalue < _proTopVal) {
             store.dispatch("handleShowNav", true);
             store.dispatch("handleCurrentTag", "experience");
         }
 
-        if (_topvalue >= 3155) {
+        if (_topvalue >= _proTopVal) {
             store.dispatch("handleShowNav", true);
             store.dispatch("handleCurrentTag", "projects");
         }

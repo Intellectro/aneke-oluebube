@@ -1,5 +1,5 @@
 <script setup>
-    import { onMounted, reactive, useTemplateRef } from 'vue';
+    import { computed, onMounted, reactive, useTemplateRef, watch } from 'vue';
     import { useStore } from 'vuex';
 
     defineOptions({
@@ -15,16 +15,22 @@
 
     const pageScroller = useTemplateRef("page-scroll-handler");
 
+    const sectionsTopUpdater = computed(() => store.getters.sectionoffsets);
+
     const handlePageScroll = (e) => {
         const _topvalue = e.currentTarget.scrollTop;
-        if (_topvalue >= 0 && _topvalue < 617) {
+        const _bioTopVal = sectionsTopUpdater.value[0]._currentTop;
+        const _expTopVal = sectionsTopUpdater.value[1]._currentTop;
+        const _proTopVal = sectionsTopUpdater.value[2]._currentTop;
+
+        if (_topvalue >= 0 && _topvalue < _expTopVal - 3) {
             store.dispatch("handleCurrentTag", "about");
         }
-        if (_topvalue >= 617 && _topvalue < 1900) {
+        if (_topvalue >= _expTopVal && _topvalue < _proTopVal - 5) {
             store.dispatch("handleCurrentTag", "experience");
         }
 
-        if (_topvalue >= 1900) {
+        if (_topvalue >= _proTopVal) {
             store.dispatch("handleCurrentTag", "projects");
         }
 

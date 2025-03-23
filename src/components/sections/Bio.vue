@@ -1,5 +1,16 @@
+<script setup>
+    import { useTemplateRef } from 'vue';
+
+    const _controller_ = useTemplateRef("bio-ref-control");
+
+    defineExpose({
+        _control: _controller_
+    });
+</script>
+
+
 <template>
-    <div class="flex flex-col gap-y-2 px-10">
+    <div ref="bio-ref-control" class="flex flex-col gap-y-2 px-10">
         <div class="block text-[14px] uppercase font-bold md:hidden text-slate-200">About</div>
         <div class="flex flex-col gap-y-2">
             <div class="text-slate-400 text-[14.5px] text-pretty md:text-[16.5px] font-medium">

@@ -36,7 +36,7 @@
                 <div class="flex flex-col gap-y-3">
                     <div class="hidden md:flex items-center gap-x-2" v-for="(_route, index) in routes_data" :key="index">
                         <div :class="['h-[1.5px] transition-all duration-700 ease-linear', _route._name == currentRoute ? 'w-[65px] bg-slate-200' : 'w-[25px] bg-slate-400']"></div>
-                        <div :class="['text-[12px] transition duration-300 ease-linear font-[550] uppercase', _route._name == currentRoute ? 'text-slate-200' : 'text-slate-400']">{{_route._name}}</div>
+                        <div :class="['transition duration-300 ease-linear font-[550] uppercase', _route._name == currentRoute ? 'text-slate-200 text-[14px] font-bold' : 'text-slate-400 text-[12px]']">{{_route._name}}</div>
                     </div>
                 </div>
                 <div class="flex flex-wrap gap-y-3 items-center gap-x-5">

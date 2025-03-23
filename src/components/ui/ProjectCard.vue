@@ -2,8 +2,7 @@
     import "./card.css";
     import { BsArrowUpRight } from "@kalimahapps/vue-icons";
     import {aiassistant, artfic, errorbreak, subzpay, techconnect} from "../../assets";
-    import { computed, reactive } from "vue";
-    import { useStore } from "vuex";
+    import { reactive } from "vue";
 
     defineProps({
         id: Number,
@@ -13,8 +12,6 @@
         _link: String,
         _langs: Array
     });
-
-    const store = useStore();
 
     const imagesHolders = reactive([
         {

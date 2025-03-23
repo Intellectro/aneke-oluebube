@@ -101,5 +101,6 @@ export default {
         }
     ],
     isPhoneView: false,
-    showNav: false
+    showNav: false,
+    sectionsOffsets: []
 }
