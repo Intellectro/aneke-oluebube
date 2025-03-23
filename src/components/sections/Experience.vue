@@ -9,7 +9,10 @@
 </script>
 
 <template>
-    <div class="flex flex-col gap-y-2 mt-10 md:mt-20 lg:mt-26">
-        <Card v-for="(workflow, index) in workflow_data" :key="index" v-bind="workflow" :data-id="index" />
+    <div class="flex flex-col gap-y-5 mt-10 md:mt-20 lg:mt-26">
+        <div class="block text-[14px] px-10 uppercase font-bold md:hidden text-slate-200">Experience</div>
+        <div class="flex flex-col gap-y-2">
+            <Card v-for="(workflow, index) in workflow_data" :key="index" v-bind="workflow" />
+        </div>
     </div>
 </template>

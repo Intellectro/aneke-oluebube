@@ -99,5 +99,7 @@ export default {
             _link: "https://github.com/Intellectro/artfic-nft",
             _langs: ["Astro", "Tailwindcss", "ExpressJs", "MongoDB", "BcryptJS"]
         }
-    ]
+    ],
+    isPhoneView: false,
+    showNav: false
 }

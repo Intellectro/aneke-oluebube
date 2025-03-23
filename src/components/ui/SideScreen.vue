@@ -27,6 +27,7 @@
         if (_topvalue >= 1900) {
             store.dispatch("handleCurrentTag", "projects");
         }
+
     }
 
     onMounted(() => {
