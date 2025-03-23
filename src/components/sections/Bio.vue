@@ -15,11 +15,11 @@
                 applications that keep users engaged.
             </div>
             <div class="text-slate-400 text-[14.5px] text-pretty md:text-[16.5px] font-medium">
-                Security is a top priority for me, and I can implement deep security
+                Security is a top priority for me, and ensure to implement deep security
                 protocols to protect websites from evolving threats. From encryption
                 and secure authentication to defending against vulnerabilities like
                 <span class="text-white">XSS and CSRF</span>, my approach ensures
-                the safety of both the site and its users. You stay up-to-date with
+                the safety of both the site and its users. I stay up-to-date with
                 the latest cybersecurity trends and integrate these measures to
                 build robust, secure platforms.
             </div>
