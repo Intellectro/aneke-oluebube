@@ -35,7 +35,7 @@
             store.dispatch("handleCurrentTag", "experience");
         }
 
-        if (_topvalue >= 3132) {
+        if (_topvalue >= 3140) {
             store.dispatch("handleShowNav", true);
             store.dispatch("handleCurrentTag", "projects");
         }
