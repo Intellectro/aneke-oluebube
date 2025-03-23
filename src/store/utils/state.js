@@ -86,7 +86,7 @@ export default {
         {
             id: 4,
             _title: "KRACKCO AI Voice Assistant",
-            _content: "Krackco is an advanced AI Voice Assistant designed to provide seamless voice interactions, smart automation, and real-time assistance. Whether it's answering queries, managing tasks, or controlling smart devices, Krackco delivers an intuitive and efficient user experience. Unfortunately the repo is on hidden, but will be active real soon",
+            _content: "Krackco is an advanced AI Voice Assistant designed to provide seamless voice interactions, smart automation, and real-time assistance. Whether it's answering queries, managing tasks, or controlling smart devices, Krackco delivers an intuitive and efficient user experience. Unfortunately the repo is hidden, but will be active lil soon",
             _image: "../../assets/images/aiassistant.png",
             _link: "#",
             _langs: ["Typescript", "React", "Tailwindcss", "Style-Component", "Zod", "React-Router", "Redux", "Redux-toolkit", "RASA", "OpenAI API"]
