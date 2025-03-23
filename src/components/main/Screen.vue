@@ -22,7 +22,6 @@
 
     const handlePageScroll = (e) => {
         const _topvalue = e.currentTarget.scrollTop;
-        console.log(_topvalue);
         store.dispatch("handleShowNav", false);
 
         if (_topvalue >= 445 && _topvalue < 1165) {
@@ -35,7 +34,7 @@
             store.dispatch("handleCurrentTag", "experience");
         }
 
-        if (_topvalue >= 3140) {
+        if (_topvalue >= 3155) {
             store.dispatch("handleShowNav", true);
             store.dispatch("handleCurrentTag", "projects");
         }
