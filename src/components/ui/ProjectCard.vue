@@ -1,7 +1,7 @@
 <script setup>
     import "./card.css";
     import { BsArrowUpRight } from "@kalimahapps/vue-icons";
-    import {aiassistant, artfic, errorbreak, subzpay, techconnect} from "../../assets";
+    import {aiassistant, artfic, errorbreak, subzpay, techconnect, zyztemtheme} from "../../assets";
     import { reactive } from "vue";
 
     defineProps({
@@ -33,6 +33,10 @@
         {
             id: 5,
             _image: artfic
+        },
+        {
+            id: 6,
+            _image: zyztemtheme
         }
     ]);
 

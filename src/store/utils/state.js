@@ -98,6 +98,14 @@ export default {
             _image: "../../assets/images/artfic.png",
             _link: "https://github.com/Intellectro/artfic-nft",
             _langs: ["Astro", "Tailwindcss", "ExpressJs", "MongoDB", "BcryptJS"]
+        },
+        {
+            id: 6,
+            _title: "System Theme Detector",
+            _content: "Zyztem Theme Detector [ZTD] is a lightweight tool that detects whether a user's operating system is set to light mode or dark mode. Just basic but nice.",
+            _image: "../../assets/images/zyztemtheme.png",
+            _link: "https://zyztem-theme-detector.vercel.app",
+            _langs: ["Typescript", "ReactJs", "Tailwindcss", "Sonner", "React-Type"]
         }
     ],
     isPhoneView: false,
