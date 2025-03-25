@@ -49,7 +49,7 @@
                     <a target="_blank" href="https://www.tiktok.com/@dev.ai">
                         <AnFilledTikTok class="text-[25px] text-slate-200" />
                     </a>
-                    <a target="_blank" href="https://api.whatsapp.com">
+                    <a target="_blank" href="https://wa.me/+2347036616087">
                         <BsWhatsapp class="text-[25px] text-slate-200" />
                     </a>
                     <a target="_blank" href="mailto:oluebubeaneke247@gmail.com?subject=">
